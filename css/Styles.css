@@ -27,9 +27,11 @@ h1, h2, h3 {
 h1 {
     font-size: 60px;
 }
+#my-name{
+  padding-top: 130px;
+}
 h2{
     font-size: 25px;
-    margin-top: 0;
     font-weight: 700
 }
 h3{
@@ -39,9 +41,9 @@ h3{
     color: mediumblue;
 }
 .content-wrap {
-    max-width:950px;
+    max-width:1200px;
     margin:0 auto;
-    padding: 60px 50px;
+    padding: 60px 60px;
     overflow: hidden;
 }
 .upper-case {
@@ -54,6 +56,13 @@ h3{
     color: black;
     padding:10px;
     display: inline-block;
+}
+p{
+  font-size: 18px;
+}
+.quote{
+  font-size: 24px;
+  color: white;
 }
 
 
@@ -75,7 +84,8 @@ header {
     right:0;
 }
 header {
-    padding-top: 50px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     position: relative;
 
 }
@@ -89,7 +99,9 @@ header h1, header h2{
 /* footer */
 footer{
     text-align: center;
-    color: #525252;
+    color: white;
+    background-color: black;
+    padding: 10px;
 
 }
 
@@ -104,6 +116,8 @@ footer{
     display: inline-block;
     text-decoration: none;
     color: cornflowerblue;
+    border-radius: 5%;
+
 }
 .contactInfo a:hover {
     text-decoration: underline;
@@ -118,6 +132,7 @@ nav{
     position:fixed;
     top:0;
     width: 100%;
+    padding: 5px;
 }
 nav a {
     display: inline-block;
@@ -155,8 +170,10 @@ h3 ~p {
 .education {
   background:linear-gradient(rgba(226, 192, 68, 3.0), rgba(226, 192, 68, 0.5)),
         url(../images/edu.jpg) no-repeat fixed;
-    background-size: cover;
-    color: black;
+  background-size: cover;
+  color: black;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 h3 + p{
         margin-top: 20px;
