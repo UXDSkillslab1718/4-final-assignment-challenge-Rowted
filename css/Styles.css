@@ -84,8 +84,7 @@ header {
     right:0;
 }
 header {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 80px;
     position: relative;
 
 }
@@ -110,12 +109,12 @@ footer{
 }
 
 .contactInfo a {
-    background: #FFFEF9;
-    margin: 5px;
-    padding: 10px;
+    background: none;
+
+    padding: 20px;
     display: inline-block;
     text-decoration: none;
-    color: cornflowerblue;
+    color:white;
     border-radius: 5%;
 
 }
@@ -178,6 +177,24 @@ h3 ~p {
 h3 + p{
         margin-top: 20px;
     }
+
+/*WORK
+---------------------------*/
+.work{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.content-wrap-work {
+    max-width:900px;
+    margin:0 auto;
+    padding: 60px 60px;
+    overflow: hidden;
+}
+/*Highlight current page
+---------------------------*/
+nav .current{
+  text-decoration: underline;
+}
 /*Media Queries
 ---------------------------*/
 @media (min-width: 750px){
