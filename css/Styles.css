@@ -81,7 +81,10 @@ p{
 
 
 }
-
+.space{
+  padding-bottom: 20px;
+  background-color: red;
+}
 
 /*header and footer
 ---------------------------*/
@@ -112,6 +115,9 @@ header h1, header h2{
 }
 h4{
   font-size: 40px;
+  padding-top:20px;
+  padding-bottom: 0px;
+  margin: 0px;
 }
 .quote{
     font-style: italic;
@@ -197,15 +203,12 @@ h3 ~p {
 
 /*Education
 ---------------------------*/
-.education {
-  background:linear-gradient(rgba(226, 192, 68, 3.0), rgba(226, 192, 68, 0.5)),
-        url(../images/edu.jpg) no-repeat fixed;
-  background-size: cover;
-  color: black;
-  margin-top: 80px;
-  margin-bottom: 100px;
-  border-bottom-right-radius: 100%;
-
+.education-box{
+  padding-top: 110px;
+  padding-bottom:200px;
+  background-color: #E2C044;
+  text-align: center;
+  margin: 0 auto;
 }
 h3 + p{
         margin-top: 20px;
@@ -228,6 +231,16 @@ h3 + p{
 .bold{
   font-weight: bold;
 }
+.work-box .col-wide{
+  padding-top: 40px;
+}
+.work-box .col-narrow{
+  padding-top: 15px;
+}
+.work-box h3{
+  text-decoration: underline; 
+
+}
 /*contact
 ---------------------------*/
 .contact-box{
@@ -241,6 +254,10 @@ h3 + p{
 }
 .contact-box a{
   color: white;
+  font-size: 18px;
+}
+.contact-box .col-wide{
+  padding-top:12px;
 }
 /*projects
 ---------------------------*/
