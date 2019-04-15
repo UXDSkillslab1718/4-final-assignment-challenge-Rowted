@@ -43,7 +43,7 @@ h3{
 .content-wrap {
     max-width:1200px;
     margin:0 auto;
-    padding: 60px 60px;
+    padding: 80px 60px;
     overflow: hidden;
 }
 .upper-case {
@@ -106,11 +106,14 @@ footer{
 
 .contact{
   padding-top: 50px;
+  position:inherit;
+}
+.contact h2{
+  padding: 20px;
 }
 
 .contactInfo a {
     background: none;
-
     padding: 20px;
     display: inline-block;
     text-decoration: none;
@@ -171,8 +174,10 @@ h3 ~p {
         url(../images/edu.jpg) no-repeat fixed;
   background-size: cover;
   color: black;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 100px;
+  border-bottom-right-radius: 100%;
+
 }
 h3 + p{
         margin-top: 20px;
@@ -181,10 +186,10 @@ h3 + p{
 /*WORK
 ---------------------------*/
 .work{
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 110px;
+  margin-bottom: 110px;
 }
-.content-wrap-work {
+.content-wrap-slim {
     max-width:900px;
     margin:0 auto;
     padding: 60px 60px;
